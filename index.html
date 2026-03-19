@@ -5,9 +5,115 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Sinchana G P | Portfolio</title>
 
-<link rel="stylesheet" href="style.css">
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap" rel="stylesheet">
 
+<style>
+
+/* GLOBAL */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: #0d0d0d;
+  color: white;
+}
+
+/* NAVBAR */
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 60px;
+  border-bottom: 1px solid #222;
+}
+
+nav a {
+  margin-left: 20px;
+  color: #aaa;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #00bcd4;
+}
+
+/* HERO */
+.hero {
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.hero h1 {
+  font-size: 2.8rem;
+}
+
+.hero span {
+  color: #00bcd4;
+}
+
+.hero p {
+  margin-top: 10px;
+  color: #aaa;
+}
+
+/* SECTIONS */
+section {
+  padding: 50px 60px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+h2 {
+  margin-bottom: 20px;
+  color: #00bcd4;
+}
+
+/* PROJECTS */
+.projects {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 15px;
+}
+
+.card {
+  background: #111;
+  padding: 15px;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  border: 1px solid #00bcd4;
+}
+
+/* SKILLS */
+.skills span {
+  display: inline-block;
+  background: #00bcd4;
+  color: black;
+  padding: 6px 12px;
+  margin: 5px;
+  border-radius: 15px;
+}
+
+/* CONTACT */
+.contact p {
+  margin: 5px 0;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 20px;
+  color: #aaa;
+  border-top: 1px solid #222;
+}
+
+</style>
 </head>
 
 <body>
@@ -76,10 +182,6 @@
   <p>Email: sinchanagp2@gmail.com</p>
   <p>Phone: +91 9481182339</p>
   <p>Location: Thirthahalli, Shivamogga</p>
-
-  <br>
-  
-  <a href="sinchanaGP.pdf" download class="btn">⬇ Download My Resume</a>
 </section>
 
 <footer>
